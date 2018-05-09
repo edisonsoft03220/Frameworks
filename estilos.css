@@ -1,0 +1,166 @@
+/* Clase para darle estilos al body */
+.musica-body {
+  background:#F1EFCD;
+	width: 100%;
+	height: 100%;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background:#FBC369;
+  min-height: 10%;
+  border: none;
+	width: 90%;
+	margin-left: 5%;
+}
+.navbar-nav{
+	background:#FBC369;
+	width: 90%;
+	margin-left: 5%;
+	font-size: 30px;
+	text-decoration-color:black;
+		
+}
+#rs1{
+	float:right;
+}
+#rs2{
+	float:right;
+}
+#rs3{
+	float:right;
+}
+#rs4{
+	float:right;
+}
+#rs5{
+	float:right;
+}
+.logo-img{
+	height:auto;
+	margin-left: 5px;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container {
+background:#F7C7A6;
+}
+}
+.main-row {
+  background:#F0B7B8;
+  margin-right: 10px;
+}
+.buscador{
+background: #F98411;
+}
+.img1{
+float:right;
+}
+.img2{
+	float: left;
+}
+.redes-sociales{
+	margin-top: 20px;
+}
+.img-social{
+	height: 40px;
+	width: 40px;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 45px;
+  background: #082D5E;
+}
+.titulo-text{
+	font-size: 18px;
+	font-weight: bolder;
+	color: #FFFFFF;
+    padding: 10px;
+}
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+.movie-title {
+  color: #FFFFFF;
+}
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  min-height: 330px;
+  border: 1px dashed black;
+}
+
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed black;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+}
+.row-centered {
+  text-align:center;
+}
+.form-group {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+.user_data{
+	margin-top: 10px;
+	font-size: 18px;
+	color:#FFFFFF;
+}
+.input-element{
+	width: 100%;
+	height: 28px;
+	padding: 10px;
+	color:#ffffff;
+	border-radius: 4px;
+	border:none;
+	margin-top: 5px;
+	background-color: rgba(255,255,255,0.4);
+}
+.btn-primary{
+	width: 40%;
+	background-color: rgba(8, 45, 94,0.95);
+	color:#ffffff;
+}
+.label-class{
+	color:#ffffff;
+	font-size: 13px;
+	margin-right: 10px;
+}
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+}
